@@ -1,0 +1,1223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99FB7C2C-7834-4F79-BDE6-667115FCB867}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Zeroit.Framework.ButtonThematic</RootNamespace>
+    <AssemblyName>Zeroit.Framework.ButtonThematic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Zeroit.Framework.ButtonThematic.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Zeroit.Framework.ButtonThematic.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ZeroitStrongKeys.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseContainer\BaseContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaseContainer\Enumeration.cs" />
+    <Compile Include="Controls\Adobe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AdvancedSystem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Advantium.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\09. CustomClassic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\08. CustomBooster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\15. CustomizedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\22. CustomRoaster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\CustomBlueAndWhite.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\07. CustomBlackShades.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\06. CustomBitDefender.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\05. CustomBasic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\04. CustomAresio.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\03. CustomAdvantium.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\02. CustomAdvancedSystem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\01. CustomAdobe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\10. CustomDeumos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\11. CustomExcision.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\12. CustomFuture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\GameBooster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\14. CustomIntel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\16. CustomNameless.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\18. CustomOrains.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\19. CustomRecon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\20. CustomSpicyLips.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\17. CustomNetSeal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\21. CustomZeus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FireFox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Sidewinder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Recuperare.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\VibeLander.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Painters\BaseColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\Brushes\BrushPainter.cs" />
+    <Compile Include="Painters\Brushes\BrushPainter2.cs" />
+    <Compile Include="Painters\Brushes\BrushPainter2Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\Brushes\BrushPainter2Dialog.Designer.cs">
+      <DependentUpon>BrushPainter2Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\Brushes\BrushPainterDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\Brushes\BrushPainterDialog.Designer.cs">
+      <DependentUpon>BrushPainterDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\Brushes\Painter2Panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\Brushes\Painter2Panel.Designer.cs">
+      <DependentUpon>Painter2Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\Brushes\PainterPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\Brushes\PainterPanel.Designer.cs">
+      <DependentUpon>PainterPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\CatColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\CatColorPicker.Designer.cs">
+      <DependentUpon>CatColorPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\ColorGradientEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\ColorGradientEditor.designer.cs">
+      <DependentUpon>ColorGradientEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\ColorGradientEditorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\ColorGradientEditorDialog.Designer.cs">
+      <DependentUpon>ColorGradientEditorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\ComboColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\ComboColorPicker.Designer.cs">
+      <DependentUpon>ComboColorPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\ComboColorPickerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\ComboColorPickerDialog.Designer.cs">
+      <DependentUpon>ComboColorPickerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\CustomColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\CustomColorPicker.Designer.cs">
+      <DependentUpon>CustomColorPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\CustomColorPickerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\CustomColorPickerDialog.Designer.cs">
+      <DependentUpon>CustomColorPickerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\DashStyleComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Painters\DragControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Painters\HatchStyleComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Painters\HatchStylePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\HatchStylePanel.Designer.cs">
+      <DependentUpon>HatchStylePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\HSColor.cs" />
+    <Compile Include="Painters\Line.cs" />
+    <Compile Include="Painters\LinearGradientBrush2.cs" />
+    <Compile Include="Painters\LinearGradientModeComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Painters\LinearGradientPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\LinearGradientPanel.Designer.cs">
+      <DependentUpon>LinearGradientPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\LineEditorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\LineEditorDialog.Designer.cs">
+      <DependentUpon>LineEditorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\LinePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\LinePanel.Designer.cs">
+      <DependentUpon>LinePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\NoFlickerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\NoFlickerPanel.Designer.cs">
+      <DependentUpon>NoFlickerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\PenPainter\Line.cs" />
+    <Compile Include="Painters\PenPainter\LinePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\PenPainter\LinePanel.Designer.cs">
+      <DependentUpon>LinePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\PenPainter\PenEditorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\PenPainter\PenEditorDialog.Designer.cs">
+      <DependentUpon>PenEditorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\Polygon\Polygon.cs" />
+    <Compile Include="Painters\Polygon\PolygonEditorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\Polygon\PolygonEditorDialog.Designer.cs">
+      <DependentUpon>PolygonEditorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Painters\SystemColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\SystemColorPickerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\SystemColorPickerDialog.Designer.cs">
+      <DependentUpon>SystemColorPickerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Theme\Spicylips Theme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Painters\Utils.cs" />
+    <Compile Include="Painters\WebColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Painters\WebColorPickerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painters\WebColorPickerDialog.Designer.cs">
+      <DependentUpon>WebColorPickerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Alpha.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Genuine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Customizable\13. CustomGameBooster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\GhostV2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Zeus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Youtube.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\xVisual.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Xtreme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Xbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Winter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\White.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Vs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Vitality.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Visceral.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\VTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Uplay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Uclear.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Ubuntu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Twitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Thief.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TheBlack.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Tennis.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Teen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Tech.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TeamViewer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Sugar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Subspace.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Studio.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Storm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SteamAlt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Steam.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SpicyLips.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Somnium.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SLC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Skype.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SkyBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Situation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Simplistic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SimpleGray.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Simpla.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Sharp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Secure.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Sasi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Rockstar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Resizable.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Redemption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Redwagon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Recon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Reactor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Qube.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Purity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Prime.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Positron.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Perplex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Patrick.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Paladin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Origin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Orains.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NYX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\New.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NetSeal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NeoBux.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Nameless.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Mystic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Mumtz.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MPGH.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Modern.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MetroDisk.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MetroUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Metal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Meph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Loyal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Login.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Light.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Knight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\JTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Intel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Insomia.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\InnerDarkness.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Influx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Influence.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\iBlack.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Hura.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\HF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Hex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Hero.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Hacker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Green.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Gray.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\GTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Future.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Fusion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Frog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Flow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FlatUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Festus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Facebook.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Exotic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Excision.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Evolve.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ETheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Empress.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Empire.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Element.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Elegant.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Electrified.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Electric.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\EightBall.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Effectual.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Earn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Drone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Doom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Deumos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Destiny.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Design.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DarkMatterAlt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DarkMatter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CypherX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Cypher.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Crystal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ComplexButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CocaColaButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\clsNeoBuxButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ClassicButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ClarityButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ChromeButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CarbonFibreButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ButterScotchButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BullionButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BorderButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BoosterButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BlueButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BlueAndWhiteButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BloodyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BlackShadesButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BitDefenderButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BionicButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BeyondButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BetaBlueButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BasicButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AVGButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AvatarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AtrocitiyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AryanButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AresioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AnomButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Angel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeManagers\Themes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\ButtonEditorUITypeEditor.cs" />
+    <Compile Include="_ExternalEditor\ButtonInput.cs" />
+    <Compile Include="_ExternalEditor\ButtonInternal_Converter.cs" />
+    <Compile Include="_ExternalEditor\HelpingControls\KnobControl\KnobControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\HelpingControls\LBKnob\LBKnob.cs" />
+    <Compile Include="_ExternalEditor\HelpingControls\TrackBar\ZeroitTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\InputControls\01. CustomAdobe.cs" />
+    <Compile Include="_ExternalEditor\InputControls\02. CustomAdvancedSystem.cs" />
+    <Compile Include="_ExternalEditor\InputControls\03. CustomAdvantium.cs" />
+    <Compile Include="_ExternalEditor\InputControls\04. CustomAresio.cs" />
+    <Compile Include="_ExternalEditor\InputControls\05. CustomBasic.cs" />
+    <Compile Include="_ExternalEditor\InputControls\06. CustomBitDefender.cs" />
+    <Compile Include="_ExternalEditor\InputControls\07. CustomBlackShades.cs" />
+    <Compile Include="_ExternalEditor\InputControls\08. CustomBooster.cs" />
+    <Compile Include="_ExternalEditor\InputControls\09. CustomClassic.cs" />
+    <Compile Include="_ExternalEditor\InputControls\10. CustomDeumos.cs" />
+    <Compile Include="_ExternalEditor\InputControls\11. CustomExcision.cs" />
+    <Compile Include="_ExternalEditor\InputControls\12. CustomFuture.cs" />
+    <Compile Include="_ExternalEditor\InputControls\13. CustomGameBooster.cs" />
+    <Compile Include="_ExternalEditor\InputControls\14. CustomIntel.cs" />
+    <Compile Include="_ExternalEditor\InputControls\15. CustomizedButton.cs" />
+    <Compile Include="_ExternalEditor\InputControls\16. CustomNameless.cs" />
+    <Compile Include="_ExternalEditor\InputControls\17. CustomNetSeal.cs" />
+    <Compile Include="_ExternalEditor\InputControls\18. CustomOrains.cs" />
+    <Compile Include="_ExternalEditor\InputControls\19. CustomRecon.cs" />
+    <Compile Include="_ExternalEditor\InputControls\20. CustomSpicyLips.cs" />
+    <Compile Include="_ExternalEditor\InputControls\21. CustomZeus.cs" />
+    <Compile Include="_ExternalEditor\InputControls\22. CustomRoaster.cs" />
+    <Compile Include="_ExternalEditor\ButtonDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\ButtonDialog.Designer.cs">
+      <DependentUpon>ButtonDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\01. CustomAdobe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\02. CustomAdvancedSystem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\03. CustomAdvantium.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\04. CustomAresio.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\05. CustomBasic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\06. CustomBitDefender.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\07. CustomBlackShades.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\08. CustomBooster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\09. CustomClassic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\10. CustomDeumos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\11. CustomExcision.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\12. CustomFuture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\13. CustomGameBooster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\14. CustomIntel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\15. CustomizedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\16. CustomNameless.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\17. CustomNetSeal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\18. CustomOrains.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\19. CustomRecon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\20. CustomSpicyLips.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\21. CustomZeus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\PreviewControls\22. CustomRoaster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Zeus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Zeus.Designer.cs">
+      <DependentUpon>UserControl_Zeus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Roaster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Roaster.Designer.cs">
+      <DependentUpon>UserControl_Roaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_SpicyLips.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_SpicyLips.Designer.cs">
+      <DependentUpon>UserControl_SpicyLips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Recon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Recon.Designer.cs">
+      <DependentUpon>UserControl_Recon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Orains.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Orains.Designer.cs">
+      <DependentUpon>UserControl_Orains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_NetSeal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_NetSeal.Designer.cs">
+      <DependentUpon>UserControl_NetSeal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Nameless.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Nameless.Designer.cs">
+      <DependentUpon>UserControl_Nameless.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Mizer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Mizer.Designer.cs">
+      <DependentUpon>UserControl_Mizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Intel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Intel.Designer.cs">
+      <DependentUpon>UserControl_Intel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_GameBooster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_GameBooster.Designer.cs">
+      <DependentUpon>UserControl_GameBooster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Future.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Future.Designer.cs">
+      <DependentUpon>UserControl_Future.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Excision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Excision.Designer.cs">
+      <DependentUpon>UserControl_Excision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Deumos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Deumos.Designer.cs">
+      <DependentUpon>UserControl_Deumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Classic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Classic.Designer.cs">
+      <DependentUpon>UserControl_Classic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Booster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Booster.Designer.cs">
+      <DependentUpon>UserControl_Booster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_BlackShades.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_BlackShades.Designer.cs">
+      <DependentUpon>UserControl_BlackShades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_BitDefender.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_BitDefender.Designer.cs">
+      <DependentUpon>UserControl_BitDefender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Basic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Basic.Designer.cs">
+      <DependentUpon>UserControl_Basic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Aresio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Aresio.Designer.cs">
+      <DependentUpon>UserControl_Aresio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Advantium.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Advantium.Designer.cs">
+      <DependentUpon>UserControl_Advantium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_AdvancedSystem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_AdvancedSystem.Designer.cs">
+      <DependentUpon>UserControl_AdvancedSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Adobe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_ExternalEditor\UserControls\UserControl_Adobe.Designer.cs">
+      <DependentUpon>UserControl_Adobe.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Painters\BaseColorPicker.resx">
+      <DependentUpon>BaseColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\Brushes\BrushPainter2Dialog.resx">
+      <DependentUpon>BrushPainter2Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\Brushes\BrushPainterDialog.resx">
+      <DependentUpon>BrushPainterDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\Brushes\Painter2Panel.resx">
+      <DependentUpon>Painter2Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\Brushes\PainterPanel.resx">
+      <DependentUpon>PainterPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\CatColorPicker.resx">
+      <DependentUpon>CatColorPicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\ColorGradientEditor.resx">
+      <DependentUpon>ColorGradientEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\ColorGradientEditorDialog.resx">
+      <DependentUpon>ColorGradientEditorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\ComboColorPicker.resx">
+      <DependentUpon>ComboColorPicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\ComboColorPickerDialog.resx">
+      <DependentUpon>ComboColorPickerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\CustomColorPicker.resx">
+      <DependentUpon>CustomColorPicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\CustomColorPickerDialog.resx">
+      <DependentUpon>CustomColorPickerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\HatchStylePanel.resx">
+      <DependentUpon>HatchStylePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\LinearGradientPanel.resx">
+      <DependentUpon>LinearGradientPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\LineEditorDialog.resx">
+      <DependentUpon>LineEditorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\LinePanel.resx">
+      <DependentUpon>LinePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\NoFlickerPanel.resx">
+      <DependentUpon>NoFlickerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\PenPainter\LinePanel.resx">
+      <DependentUpon>LinePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\PenPainter\PenEditorDialog.resx">
+      <DependentUpon>PenEditorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\Polygon\PolygonEditorDialog.resx">
+      <DependentUpon>PolygonEditorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\SystemColorPickerDialog.resx">
+      <DependentUpon>SystemColorPickerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painters\WebColorPickerDialog.resx">
+      <DependentUpon>WebColorPickerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="_ExternalEditor\ButtonDialog.resx">
+      <DependentUpon>ButtonDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Zeus.resx">
+      <DependentUpon>UserControl_Zeus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Roaster.resx">
+      <DependentUpon>UserControl_Roaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_SpicyLips.resx">
+      <DependentUpon>UserControl_SpicyLips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Recon.resx">
+      <DependentUpon>UserControl_Recon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Orains.resx">
+      <DependentUpon>UserControl_Orains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_NetSeal.resx">
+      <DependentUpon>UserControl_NetSeal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Nameless.resx">
+      <DependentUpon>UserControl_Nameless.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Mizer.resx">
+      <DependentUpon>UserControl_Mizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Intel.resx">
+      <DependentUpon>UserControl_Intel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_GameBooster.resx">
+      <DependentUpon>UserControl_GameBooster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Future.resx">
+      <DependentUpon>UserControl_Future.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Excision.resx">
+      <DependentUpon>UserControl_Excision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Deumos.resx">
+      <DependentUpon>UserControl_Deumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Classic.resx">
+      <DependentUpon>UserControl_Classic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Booster.resx">
+      <DependentUpon>UserControl_Booster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_BlackShades.resx">
+      <DependentUpon>UserControl_BlackShades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_BitDefender.resx">
+      <DependentUpon>UserControl_BitDefender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Basic.resx">
+      <DependentUpon>UserControl_Basic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Aresio.resx">
+      <DependentUpon>UserControl_Aresio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Advantium.resx">
+      <DependentUpon>UserControl_Advantium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_AdvancedSystem.resx">
+      <DependentUpon>UserControl_AdvancedSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExternalEditor\UserControls\UserControl_Adobe.resx">
+      <DependentUpon>UserControl_Adobe.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Zeroit.Framework.ButtonThematic.nuspec" />
+    <None Include="ZeroitStrongKeys.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Color.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Double_Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Double_Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownLeft_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownRight_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\First.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HSL200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Last.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prev.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpLeft_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpRight_small.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
