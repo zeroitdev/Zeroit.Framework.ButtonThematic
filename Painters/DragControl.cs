@@ -41,8 +41,7 @@ using System.Windows.Forms;
 
 namespace Zeroit.Framework.ButtonThematic.Editors
 {
-    //[DebuggerStepThrough]
-    //[ProvideProperty("BunifuFramework", typeof(Control))]
+    
     [ToolboxItem(false)]
     public class DragControl : Component
     {
